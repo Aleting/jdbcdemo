@@ -3,10 +3,7 @@ package com.employee.dao;
 import com.employee.model.Employee;
 import com.employee.tools.DbUtil;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,7 +28,56 @@ public class EmployeeDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         return employeesList;
     }
+    //删除方法
+    public boolean deleteId(int id){
+        try {
+            String sql = "delete from employee where id = ?";
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setInt(1,id);
+            int i = ps.executeUpdate();
+            if (i!=0){
+                return true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+    //添加方法
+    public boolean add(Employee employee){
+        try {
+            String sql = "insert into employee (id,name, sex,age) values(null,?,?,?)";
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1,employee.getName());
+            ps.setString(2,employee.getSex());
+            ps.setInt(3,employee.getAge());
+            int i = ps.executeUpdate();
+            if (i!=0){
+                return true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }    //添加方法
+    public boolean update(Employee employee){
+        try {
+            String sql = "update employee set name=?,sex=?,age=? where id=?";
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1,employee.getName());
+            ps.setString(2,employee.getSex());
+            ps.setInt(3,employee.getAge());
+            ps.setInt(4,employee.getId());
+            int i = ps.executeUpdate();
+            if (i!=0){
+                return true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
 }

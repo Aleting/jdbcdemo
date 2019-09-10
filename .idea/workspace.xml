@@ -6,7 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1f2bf33-5120-43f1-b36a-1200321d2617" name="Default Changelist" comment="" />
+    <list default="true" id="a1f2bf33-5120-43f1-b36a-1200321d2617" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/employee/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employee/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/employee/servlet/EmployeeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employee/servlet/EmployeeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/EmployeeList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/EmployeeList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +53,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
@@ -67,18 +81,25 @@
   </component>
   <component name="ProjectId" id="1Qa4BRXZBBr1AW1Q5FLRCdRKCsd" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Tomcat 9.0/lib/servlet-api.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/pages" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.49425286" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\java\emplyee\src\main\webapp\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\code\java\emplyee\src\main\resources" />
-      <recent name="F:\code\java\emplyee\src\main\java\com\emplyee\jdbc" />
+      <recent name="F:\code\java\emplyee\src\main\webapp\static\pages" />
+      <recent name="F:\code\java\emplyee\src\main\webapp\static" />
+      <recent name="F:\code\java\emplyee\src\main\webapp\static\css" />
+      <recent name="F:\code\java\emplyee\src\main\webapp\static\js" />
+      <recent name="F:\code\java\emplyee\src\main\webapp\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,10 +300,29 @@
       <workItem from="1568006540198" duration="31000" />
       <workItem from="1568006636450" duration="1735000" />
       <workItem from="1568011330603" duration="4906000" />
+      <workItem from="1568084895777" duration="174000" />
+      <workItem from="1568093073442" duration="88000" />
+      <workItem from="1568093201604" duration="433000" />
+      <workItem from="1568093672271" duration="2551000" />
+      <workItem from="1568096399816" duration="1880000" />
+      <workItem from="1568099250465" duration="13958000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
